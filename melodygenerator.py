@@ -123,7 +123,7 @@ if __name__ == "__main__":
     mg = MelodyGenerator()
     seed ="67 _ 65 _ _ _ 60 _ _ _ _ _ 62 _ 64"
     melody = mg.generate_melody(seed, 500, SEQUENCE_LENGTH,0.8)
-    print(melody)
+    print("Melody: ",melody)
     mg.save_melody(melody)
     
     
